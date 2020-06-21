@@ -2,18 +2,18 @@
 desafio big data da dextra
 
 
-para fazer pull da imagem
+# para fazer pull da imagem
 docker pull tsandesfernandes/cinqchallenge
 
-para fazer build
+# para fazer build
 docker build -t cinqchallenge .
 
 
-rodar o build 
+# rodar o build 
 docker run --rm cinqchallenge
 
-git clone
+# git clone
 https://github.com/tsandesfernandes/dextra-challenge.git
 
-testes unitários
+# testes unitários
 python -m unittest -v teste.py
