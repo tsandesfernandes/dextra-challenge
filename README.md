@@ -10,7 +10,7 @@ docker build -t cinqchallenge .
 
 
 # rodar o build 
-docker run --rm cinqchallenge
+docker run --rm -it -p 8000:8000 tsandesfernandes/cinqchallenge
 
 # git clone
 https://github.com/tsandesfernandes/dextra-challenge.git
